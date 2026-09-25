@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Compile Update="view\adminpage.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="view\Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="view\LoginUser.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="view\searchpage.cs">
+      <SubType>Form</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Update="view\adminpage.resx">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Update="view\Form1.resx">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Update="view\LoginUser.resx">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+</Project>

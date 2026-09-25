@@ -1,0 +1,69 @@
+{
+  "Events": [
+    {
+      "EventID": 1,
+      "Title": "Concert",
+      "Date": "2026-02-17T07:31:59.125",
+      "Category": "music",
+      "Price": 25,
+      "TotalSeats": 200,
+      "AvailableSeats": 200
+    },
+    {
+      "EventID": 2,
+      "Title": "Football match",
+      "Date": "2026-02-05T07:31:59.125",
+      "Category": "sport",
+      "Price": 20,
+      "TotalSeats": 100,
+      "AvailableSeats": 100
+    },
+    {
+      "EventID": 3,
+      "Title": "C# ",
+      "Date": "2026-02-10T07:31:59.125",
+      "Category": "Workshop",
+      "Price": 20,
+      "TotalSeats": 50,
+      "AvailableSeats": 48
+    },
+    {
+      "EventID": 4,
+      "Title": "Art Exhibition",
+      "Date": "2026-02-25T07:31:59.125",
+      "Category": "Exhibition",
+      "Price": 100,
+      "TotalSeats": 30,
+      "AvailableSeats": 30
+    }
+  ],
+  "Users": [
+    {
+      "Name": "Amer",
+      "userID": 1,
+      "contact": "amer@gmail.com"
+    }
+  ],
+  "Bookings": [
+    {
+      "bookingId": 1,
+      "user": {
+        "Name": "Amer",
+        "userID": 1,
+        "contact": "amer@gmail.com"
+      },
+      "Event": {
+        "EventID": 3,
+        "Title": "C# workshop",
+        "Date": "2026-02-10T07:31:59.125",
+        "Category": "Programming",
+        "Price": 20,
+        "TotalSeats": 50,
+        "AvailableSeats": 48
+      },
+      "seatnumber": 2,
+      "status": "Confirmed",
+      "TotalPrice": 40
+    }
+  ]
+}

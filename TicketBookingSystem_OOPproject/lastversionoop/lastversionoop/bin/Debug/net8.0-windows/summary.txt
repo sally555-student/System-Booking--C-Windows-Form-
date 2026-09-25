@@ -1,0 +1,8 @@
+User nb:1  Booking:1     Amer                C#                       Seats:2   Total:40        Status:Confirmed    
+-----------------------------------
+TotalRevenue:40$
+-----------------------------------
+Concert    : 	 200/200 	 || 0 $
+Football match : 	 100/100 	 || 0 $
+C#         : 	 48/50 	 || 40 $
+Art Exhibition : 	 30/30 	 || 0 $
